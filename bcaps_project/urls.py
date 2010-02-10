@@ -5,7 +5,7 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^$','browser_capabilities.views.testview'),
+    (r'^$','bcaps.views.testview'),
     # Example:
     # (r'^testproject/', include('testproject.foo.urls')),
 
